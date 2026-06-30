@@ -1,0 +1,1072 @@
+{
+  "dashboard": {
+    "overview": {
+      "totalDevices": 124,
+      "onlineDevices": 118,
+      "offlineDevices": 6,
+      "totalAlerts": 45,
+      "todayAlerts": 8,
+      "pestDetections": 2400,
+      "coverageArea": 33440,
+      "dataCollectionRate": 95.2
+    },
+    "corridorData": [
+      {
+        "id": "1",
+        "name": "性诱采集",
+        "type": "pest_detection",
+        "value": 3200,
+        "unit": "只",
+        "trend": "up",
+        "changeRate": 12.5,
+        "targetValue": 10000,
+        "completionRate": 30
+      },
+      {
+        "id": "2",
+        "name": "灯诱采集",
+        "type": "device_online",
+        "value": 1800,
+        "unit": "只",
+        "trend": "stable",
+        "changeRate": 3.2,
+        "targetValue": 9000,
+        "completionRate": 20
+      },
+      {
+        "id": "3",
+        "name": "人工采集",
+        "type": "data_collection",
+        "value": 1600,
+        "unit": "只",
+        "trend": "down",
+        "changeRate": -5.8,
+        "targetValue": 6400,
+        "completionRate": 25
+      },
+      {
+        "id": "4",
+        "name": "监测采集",
+        "type": "alert_response",
+        "value": 2400,
+        "unit": "只",
+        "trend": "up",
+        "changeRate": 18.3,
+        "targetValue": 9600,
+        "completionRate": 25
+      }
+    ],
+    "collectionMetrics": {
+      "totalRecords": 9000,
+      "todayRecords": 156,
+      "successRate": 98.5,
+      "avgResponseTime": 2.3,
+      "metricsByType": [
+        {
+          "type": "性诱",
+          "count": 3200,
+          "percentage": 35.56,
+          "trend": 12.5
+        },
+        {
+          "type": "灯诱",
+          "count": 1800,
+          "percentage": 20,
+          "trend": 3.2
+        },
+        {
+          "type": "人工",
+          "count": 1600,
+          "percentage": 17.78,
+          "trend": -5.8
+        },
+        {
+          "type": "监测",
+          "count": 2400,
+          "percentage": 26.67,
+          "trend": 18.3
+        }
+      ]
+    },
+    "alerts": [
+      {
+        "id": "a001",
+        "level": "warning",
+        "title": "虫害密度超标预警",
+        "description": "临沂市兰山区测报灯1检测到粘虫密度超过阈值",
+        "source": "测报灯1",
+        "createTime": "2024-05-24 14:32:00",
+        "status": "pending"
+      },
+      {
+        "id": "a002",
+        "level": "error",
+        "title": "设备离线告警",
+        "description": "费县性诱器3已离线超过2小时",
+        "source": "性诱器3",
+        "createTime": "2024-05-24 13:15:00",
+        "status": "processing"
+      },
+      {
+        "id": "a003",
+        "level": "info",
+        "title": "数据同步完成",
+        "description": "今日所有站点数据同步完成",
+        "source": "系统",
+        "createTime": "2024-05-24 12:00:00",
+        "status": "resolved"
+      },
+      {
+        "id": "a004",
+        "level": "critical",
+        "title": "暴雨气象预警",
+        "description": "预计未来24小时临沂地区将出现暴雨天气",
+        "source": "气象站",
+        "createTime": "2024-05-24 10:20:00",
+        "status": "pending"
+      }
+    ],
+    "recentActivities": [
+      {
+        "id": "act001",
+        "type": "pest_detection",
+        "title": "检测到粘虫入侵",
+        "description": "临沂市兰山区1号站点检测到粘虫密度上升",
+        "timestamp": "2024-05-24 15:20:00"
+      },
+      {
+        "id": "act002",
+        "type": "device_online",
+        "title": "设备上线通知",
+        "description": "费县3号性诱器恢复在线状态",
+        "timestamp": "2024-05-24 14:50:00"
+      },
+      {
+        "id": "act003",
+        "type": "data_collection",
+        "title": "数据采集完成",
+        "description": "今日第156条数据已成功上传至云端",
+        "timestamp": "2024-05-24 14:30:00"
+      },
+      {
+        "id": "act004",
+        "type": "alert_response",
+        "title": "预警处理完成",
+        "description": "济南市历城区虫害预警已确认并派发处理任务",
+        "timestamp": "2024-05-24 13:45:00"
+      }
+    ]
+  },
+  "dashboardV2": {
+    "platformInfo": {
+      "title": "山东省智慧植保综合智慧平台",
+      "version": "V2.0",
+      "updateTime": "2024-12-30 16:30:00"
+    },
+    "module1_cityRanking": [
+      {
+        "name": "青岛市",
+        "count": 1200,
+        "percent": 90
+      },
+      {
+        "name": "潍坊市",
+        "count": 800,
+        "percent": 65
+      },
+      {
+        "name": "济南市",
+        "count": 450,
+        "percent": 49
+      },
+      {
+        "name": "淄博市",
+        "count": 362,
+        "percent": 40
+      },
+      {
+        "name": "东营市",
+        "count": 250,
+        "percent": 38
+      }
+    ],
+    "module2_deviceAnalysis": {
+      "years": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "测情",
+          "data": [
+            20,
+            25,
+            18,
+            30,
+            28,
+            35,
+            40
+          ],
+          "color": "#00d4ff"
+        },
+        {
+          "name": "气象",
+          "data": [
+            15,
+            22,
+            16,
+            26,
+            24,
+            32,
+            38
+          ],
+          "color": "#00d4aa"
+        },
+        {
+          "name": "虫情",
+          "data": [
+            10,
+            18,
+            12,
+            22,
+            20,
+            28,
+            34
+          ],
+          "color": "#ff8c00"
+        },
+        {
+          "name": "灯诱",
+          "data": [
+            8,
+            14,
+            10,
+            18,
+            16,
+            24,
+            28
+          ],
+          "color": "#ff4757"
+        },
+        {
+          "name": "性诱",
+          "data": [
+            6,
+            12,
+            8,
+            15,
+            13,
+            20,
+            24
+          ],
+          "color": "#a855f7"
+        }
+      ]
+    },
+    "module3_bandData": {
+      "years": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "areaSeries": [
+        {
+          "name": "气象数据源",
+          "type": "area",
+          "data": [
+            1500,
+            1800,
+            2200,
+            2800,
+            3200,
+            3800
+          ],
+          "color": "#00d4ff"
+        },
+        {
+          "name": "图像数据源",
+          "type": "area",
+          "data": [
+            1200,
+            1450,
+            1900,
+            2400,
+            2800,
+            3200
+          ],
+          "color": "#00d4aa"
+        },
+        {
+          "name": "虫量数据源",
+          "type": "area",
+          "data": [
+            800,
+            1100,
+            1400,
+            1800,
+            2100,
+            2500
+          ],
+          "color": "#ff8c00"
+        }
+      ]
+    },
+    "module4_mapData": {
+      "yearOptions": [
+        2024,
+        2023,
+        2022
+      ],
+      "selectedYear": 2024,
+      "cityMarkers": [
+        { "city": "青岛市",   "x": 82, "y": 28, "value": 2156 },
+        { "city": "潍坊市",   "x": 56, "y": 38, "value": 1987 },
+        { "city": "济南市",   "x": 44, "y": 30, "value": 2283 },
+        { "city": "淄博市",   "x": 52, "y": 36, "value": 1156 },
+        { "city": "东营市",   "x": 72, "y": 36, "value": 623 },
+        { "city": "烟台市",   "x": 78, "y": 18, "value": 1698 },
+        { "city": "威海市",   "x": 86, "y": 16, "value": 754 },
+        { "city": "日照市",   "x": 76, "y": 48, "value": 548 },
+        { "city": "临沂市",   "x": 58, "y": 62, "value": 1823 },
+        { "city": "济宁市",   "x": 46, "y": 54, "value": 1298 },
+        { "city": "枣庄市",   "x": 54, "y": 58, "value": 682 },
+        { "city": "泰安市",   "x": 48, "y": 44, "value": 856 },
+        { "city": "莱芜区",   "x": 54, "y": 38, "value": 420 },
+        { "city": "德州市",   "x": 30, "y": 24, "value": 1423 },
+        { "city": "滨州市",   "x": 38, "y": 28, "value": 1089 },
+        { "city": "菏泽市",   "x": 32, "y": 66, "value": 1545 }
+      ],
+      "bottomStatsCards": [
+        {
+          "label": "总监测点",
+          "value": "3 7 5"
+        },
+        {
+          "label": "新增站点",
+          "value": "3 6"
+        },
+        {
+          "label": "总设备数",
+          "value": "4 3 3 5"
+        }
+      ]
+    },
+    "module5_trendGauges": [
+      {
+        "city": "济南市",
+        "value": 20,
+        "current": 200,
+        "total": 1000
+      },
+      {
+        "city": "青岛市",
+        "value": -20,
+        "current": 200,
+        "total": 1000
+      },
+      {
+        "city": "烟台市",
+        "value": 20,
+        "current": 200,
+        "total": 1000
+      }
+    ],
+    "module6_usageRate": {
+      "usagePercent": 24,
+      "usageTotal": 2000,
+      "fundLabel": "国家资金",
+      "fundTags": [
+        {
+          "label": "省级资金",
+          "active": true,
+          "disabled": false
+        },
+        {
+          "label": "中央财政专项资金",
+          "active": true,
+          "disabled": false
+        },
+        {
+          "label": "市县配套资金",
+          "active": true,
+          "disabled": false
+        },
+        {
+          "label": "本级财政资金",
+          "active": false,
+          "disabled": false
+        },
+        {
+          "label": "乡村振兴资金",
+          "active": false,
+          "disabled": false
+        },
+        {
+          "label": "其他",
+          "active": false,
+          "disabled": false
+        },
+        {
+          "label": "多渠道混合资金",
+          "active": false,
+          "disabled": false
+        },
+        {
+          "label": "中央救灾资金",
+          "active": false,
+          "disabled": false
+        }
+      ]
+    },
+    "module7_brandTable": [
+      {
+        "icon": "🌾",
+        "name": "托普云农",
+        "count": 90,
+        "ratio": "44.2%",
+        "defectRate": "4.2%"
+      },
+      {
+        "icon": "🌾",
+        "name": "济南农智",
+        "count": 90,
+        "ratio": "44.2%",
+        "defectRate": "21.5%"
+      },
+      {
+        "icon": "🌾",
+        "name": "济南祥瑞",
+        "count": 90,
+        "ratio": "44.2%",
+        "defectRate": "30%"
+      },
+      {
+        "icon": "🌾",
+        "name": "宁波植康",
+        "count": 90,
+        "ratio": "44.2%",
+        "defectRate": "48.2%"
+      }
+    ],
+    "modal1_districtTable": {
+      "columns": [
+        {
+          "key": "index",
+          "label": "序号",
+          "width": 60
+        },
+        {
+          "key": "district",
+          "label": "所属区县",
+          "width": 100
+        },
+        {
+          "key": "stationName",
+          "label": "站点名称",
+          "width": 200
+        },
+        {
+          "key": "buildTime",
+          "label": "建设时间",
+          "width": 120
+        },
+        {
+          "key": "location",
+          "label": "建设位置"
+        }
+      ],
+      "data": [
+        {
+          "index": 1,
+          "district": "市中区",
+          "stationName": "市中区智慧植保站点A",
+          "buildTime": "2024/01/15",
+          "location": "市中区英雄山路88号"
+        },
+        {
+          "index": 2,
+          "district": "市中区",
+          "stationName": "市中区智慧植保站点B",
+          "buildTime": "2024/02/20",
+          "location": "市中区经十路256号"
+        },
+        {
+          "index": 3,
+          "district": "历下区",
+          "stationName": "历下区虫情监测站",
+          "buildTime": "2024/03/10",
+          "location": "历下区泺源大街168号"
+        },
+        {
+          "index": 4,
+          "district": "历下区",
+          "stationName": "历下区气象观测站",
+          "buildTime": "2024/04/05",
+          "location": "历下区工业南路99号"
+        },
+        {
+          "index": 5,
+          "district": "槐荫区",
+          "stationName": "槐荫区智能测报点",
+          "buildTime": "2024/05/12",
+          "location": "槐荫区张庄路366号"
+        },
+        {
+          "index": 6,
+          "district": "槐荫区",
+          "stationName": "槐荫区病虫害防治站",
+          "buildTime": "2024/06/18",
+          "location": "槐荫区营市东街128号"
+        },
+        {
+          "index": 7,
+          "district": "天桥区",
+          "stationName": "天桥区农业监测中心",
+          "buildTime": "2024/07/22",
+          "location": "天桥区无影山北路77号"
+        },
+        {
+          "index": 8,
+          "district": "天桥区",
+          "stationName": "天桥区生态监测站",
+          "buildTime": "2024/08/30",
+          "location": "天桥区济泺路188号"
+        },
+        {
+          "index": 9,
+          "district": "历城区",
+          "stationName": "历城区植保服务站",
+          "buildTime": "2024/09/14",
+          "location": "历城区花园路255号"
+        },
+        {
+          "index": 10,
+          "district": "历城区",
+          "stationName": "历城区智能防控点",
+          "buildTime": "2024/10/08",
+          "location": "历城区工业北路466号"
+        },
+        {
+          "index": 11,
+          "district": "长清区",
+          "stationName": "长清区农情监测站",
+          "buildTime": "2024/11/03",
+          "location": "长清区文昌路555号"
+        },
+        {
+          "index": 12,
+          "district": "章丘区",
+          "stationName": "章丘区智慧农业站",
+          "buildTime": "2024/11/25",
+          "location": "章丘区双山大街369号"
+        },
+        {
+          "index": 13,
+          "district": "济阳区",
+          "stationName": "济阳区病虫害预警站",
+          "buildTime": "2024/12/10",
+          "location": "济阳区正安路166号"
+        },
+        {
+          "index": 14,
+          "district": "莱芜区",
+          "stationName": "莱芜区生态植保站",
+          "buildTime": "2024/12/30",
+          "location": "莱芜区凤城西大街299号"
+        }
+      ],
+      "pagination": {
+        "current": 1,
+        "pageSize": 14,
+        "total": 14
+      }
+    },
+    "modal2_cityGrowthTable": {
+      "columns": [
+        {
+          "key": "index",
+          "label": "序号",
+          "width": 60
+        },
+        {
+          "key": "cityName",
+          "label": "城市名称",
+          "width": 120
+        },
+        {
+          "key": "increaseCount",
+          "label": "增加数量",
+          "width": 120
+        },
+        {
+          "key": "growthRate",
+          "label": "增幅%",
+          "width": 100
+        }
+      ],
+      "data": [
+        {
+          "index": 1,
+          "cityName": "济南市",
+          "increaseCount": 450,
+          "growthRate": "4.2%"
+        },
+        {
+          "index": 2,
+          "cityName": "青岛市",
+          "increaseCount": 1200,
+          "growthRate": "90%"
+        },
+        {
+          "index": 3,
+          "cityName": "潍坊市",
+          "increaseCount": 800,
+          "growthRate": "65%"
+        },
+        {
+          "index": 4,
+          "cityName": "淄博市",
+          "increaseCount": 362,
+          "growthRate": "40%"
+        },
+        {
+          "index": 5,
+          "cityName": "东营市",
+          "increaseCount": 250,
+          "growthRate": "38%"
+        },
+        {
+          "index": 6,
+          "cityName": "烟台市",
+          "increaseCount": 198,
+          "growthRate": "22%"
+        },
+        {
+          "index": 7,
+          "cityName": "威海市",
+          "increaseCount": 156,
+          "growthRate": "18%"
+        },
+        {
+          "index": 8,
+          "cityName": "日照市",
+          "increaseCount": 134,
+          "growthRate": "15%"
+        },
+        {
+          "index": 9,
+          "cityName": "临沂市",
+          "increaseCount": 278,
+          "growthRate": "31%"
+        },
+        {
+          "index": 10,
+          "cityName": "济宁市",
+          "increaseCount": 210,
+          "growthRate": "24%"
+        },
+        {
+          "index": 11,
+          "cityName": "泰安市",
+          "increaseCount": 185,
+          "growthRate": "21%"
+        },
+        {
+          "index": 12,
+          "cityName": "德州市",
+          "increaseCount": 112,
+          "growthRate": "13%"
+        }
+      ],
+      "pagination": {
+        "current": 1,
+        "pageSize": 12,
+        "total": 12
+      }
+    }
+  },
+  "dashboardV3": {
+    "platformInfo": {
+      "title": "山东省智慧植保综合指挥平台",
+      "version": "V3.0",
+      "weather": {
+        "temperature": "17~28°C",
+        "condition": "多云"
+      },
+      "datetime": "2024.11.01 星期五 15:55:35"
+    },
+    "topTabs": ["首页", "虫害专题", "站点分布"],
+    "leftNavMenu": {
+      "modeA_functional": [
+        {
+          "id": "nav_1",
+          "icon": "📊",
+          "label": "数据仪表盘",
+          "expandable": true,
+          "expanded": true,
+          "children": [
+            {
+              "id": "nav_1_1",
+              "icon": "🌤️",
+              "label": "光谱资源列表",
+              "expandable": true
+            }
+          ]
+        },
+        {
+          "id": "nav_2",
+          "icon": "🔍",
+          "label": "专家分析",
+          "expandable": true,
+          "expanded": true,
+          "children": [
+            { "id": "nav_2_1", "label": "人工智能查任务汇总" },
+            { "id": "nav_2_2", "label": "人工测报数据专题", "expandable": true, "expanded": true, "children": [
+              { "id": "nav_2_2_1", "label": "小麦蚜虫专题" },
+              { "id": "nav_2_2_2", "label": "★ 赤霉病专项", "selected": true, "highlight": true },
+              { "id": "nav_2_2_3", "label": "条锈病专项" }
+            ]}
+          ]
+        },
+        { "id": "nav_3", "icon": "📈", "label": "多维分析", "expandable": true },
+        { "id": "nav_4", "icon": "🗺️", "label": "叠加分析", "expandable": true },
+        { "id": "nav_5", "icon": "📋", "label": "综合资源", "expandable": true, "children": [{ "id": "nav_5_1", "label": "病虫情报汇集" }] },
+        { "id": "nav_6", "icon": "📚", "label": "知识库资源", "expandable": true, "children": [] },
+        { "id": "nav_7", "icon": "🎯", "label": "视频监控墙", "expandable": true, "children": [] },
+        { "id": "nav_8", "icon": "🏙️", "label": "市县专题", "expandable": true, "expanded": true, "children": [
+          { "id": "nav_8_1", "label": "玉米螟", "count": 98 },
+          { "id": "nav_8_2", "label": "稻飞虱", "count": 88 }
+        ]}
+      ],
+      "modeB_administrative": {
+        "title": "行政区选择（山东省）",
+        "currentProvince": "山东省",
+        "cities": [
+          { "name": "济南市", "districts": ["长清区", "济阳区", "历城区"] },
+          { "name": "青岛市", "districts": ["市南区", "市北区", "崂山区"] },
+          { "name": "烟台市", "districts": ["芝罘区", "福山区", "牟平区"] },
+          { "name": "潍坊市", "districts": ["潍城区", "寒亭区", "坊子区"] },
+          { "name": "淄博市", "districts": ["张店区", "淄川区", "博山区"] },
+          { "name": "临沂市", "districts": ["兰山区", "罗庄区", "河东区"] },
+          { "name": "济宁市", "districts": ["任城区", "兖州区", "曲阜市"] },
+          { "name": "泰安市", "districts": ["泰山区", "岱岳区", "新泰市"] },
+          { "name": "威海市", "districts": ["环翠区", "文登区", "荣成市"] },
+          { "name": "日照市", "districts": ["东港区", "岚山区", "莒县"] },
+          { "name": "东营市", "districts": ["东营区", "河口区", "垦利区"] },
+          { "name": "德州市", "districts": ["德城区", "陵城区", "禹城市"] },
+          { "name": "聊城市", "districts": ["东昌府区", "茌平区", "临清市"] },
+          { "name": "滨州市", "districts": ["滨城区", "沾化区", "邹平市"] },
+          { "name": "菏泽市", "districts": ["牡丹区", "曹县", "单县"] },
+          { "name": "枣庄市", "districts": ["市中区", "薛城区", "滕州市"] }
+        ]
+      }
+    },
+    "centerArea": {
+      "pestTabs": ["粮棉虫", "玉米螟", "蝗虫"],
+      "monthOptions": ["10月", "9月", "8月", "7月"],
+      "selectedMonth": "10月",
+      "heatmapData": {
+        "legendRanges": [
+          { "min": 50, "color": "#ff3333", "label": "50+" },
+          { "min": 30, "max": 50, "color": "#ff9933", "label": "30-50" },
+          { "min": 15, "max": 30, "color": "#33cc33", "label": "15-30" },
+          { "max": 15, "color": "#3399ff", "label": "15以下" }
+        ],
+        "cityHeatValues": [
+          { "city": "济南市", "value": 42, "lat": 36.65, "lng": 117.0 },
+          { "city": "青岛市", "value": 55, "lat": 36.08, "lng": 120.35 },
+          { "city": "烟台市", "value": 38, "lat": 37.52, "lng": 121.39 },
+          { "city": "潍坊市", "value": 48, "lat": 36.70, "lng": 119.15 },
+          { "city": "淄博市", "value": 32, "lat": 36.78, "lng": 118.05 },
+          { "city": "临沂市", "value": 58, "lat": 35.07, "lng": 118.35 },
+          { "city": "济宁市", "value": 45, "lat": 35.42, "lng": 116.58 },
+          { "city": "泰安市", "value": 28, "lat": 36.18, "lng": 117.13 },
+          { "city": "威海市", "value": 25, "lat": 37.50, "lng": 122.12 },
+          { "city": "日照市", "value": 35, "lat": 35.42, "lng": 119.46 },
+          { "city": "东营市", "value": 22, "lat": 37.46, "lng": 118.49 },
+          { "city": "德州市", "value": 40, "lat": 37.45, "lng": 116.30 },
+          { "city": "滨州市", "value": 30, "lat": 37.38, "lng": 118.02 },
+          { "city": "菏泽市", "value": 52, "lat": 35.25, "lng": 115.48 },
+          { "city": "枣庄市", "value": 36, "lat": 34.85, "lng": 117.55 },
+          { "city": "聊城市", "value": 29, "lat": 36.45, "lng": 115.98 }
+        ]
+      },
+      "bottomButtons": ["重点市县", "空间分布"],
+      "videoCards": [
+        { "id": "v1", "title": "北部区域 - 农田监测点A", "region": "北部", "thumbnail": "/images/video_north.jpg", "status": "直播中" },
+        { "id": "v2", "title": "中部区域 - 智能植保站B", "region": "中部", "thumbnail": "/images/video_center.jpg", "status": "录像中" },
+        { "id": "v3", "title": "南部区域 - 虫情预警中心C", "region": "南部", "thumbnail": "/images/video_south.jpg", "status": "待机" }
+      ],
+      "pestLineCharts": {
+        "sprayPestChart": {
+          "title": "打药虫情折线图",
+          "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+          "series": [
+            { "name": "褐飞虱", "data": [120, 180, 250, 380, 520, 680, 750, 720, 580, 420, 280, 150], "color": "#ff8c00" },
+            { "name": "稻纵卷叶螟", "data": [80, 120, 200, 320, 450, 580, 650, 600, 480, 350, 220, 100], "color": "#00d4aa" }
+          ]
+        },
+        "sexLureChart": {
+          "title": "性诱虫情折线图",
+          "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+          "series": [
+            { "name": "二化螟", "data": [90, 140, 220, 350, 500, 620, 700, 680, 550, 400, 260, 130], "color": "#a855f7" },
+            { "name": "玉米螟", "data": [70, 110, 190, 300, 420, 550, 620, 590, 470, 340, 210, 95], "color": "#00d4ff" }
+          ]
+        }
+      },
+      "cityPopupData": {
+        "template": {
+          "occurrenceArea": "发生面积(万亩)",
+          "preventionArea": "防治面积(万亩)",
+          "monitoringPoints": "监测点数(个)",
+          "avgHazardDegree": "平均危害度(%)"
+        },
+        "examples": {
+          "济南市": { "occurrenceArea": 125.6, "preventionArea": 118.3, "monitoringPoints": 24, "avgHazardDegree": 35.2 },
+          "青岛市": { "occurrenceArea": 156.8, "preventionArea": 148.5, "monitoringPoints": 31, "avgHazardDegree": 42.8 },
+          "临沂市": { "occurrenceArea": 178.4, "preventionArea": 169.2, "monitoringPoints": 38, "avgHazardDegree": 48.5 }
+        }
+      }
+    },
+    "rightPanel": {
+      "title": "植保工程建设效果",
+      "statCards": [
+        { "label": "站点", "value": 52,  "icon": "📍", "unit": "个" },
+        { "label": "设备", "value": 12,  "icon": "⚙️", "unit": "台" },
+        { "label": "离线", "value": 71,  "icon": "📡", "unit": "台" },
+        { "label": "灯诱", "value": 11,  "icon": "💡", "unit": "套" },
+        { "label": "性诱", "value": 31,  "icon": "🦋", "unit": "套" },
+        { "label": "生境", "value": 12,  "icon": "☀️", "unit": "点" }
+      ],
+      "imageGalleries": {
+        "trapLightGallery": {
+          "title": "测报灯...所获数据",
+          "images": [
+            { "id": "img1", "url": "/images/trap_light_1.jpg", "caption": "自动虫情测报灯" },
+            { "id": "img2", "url": "/images/trap_light_2.jpg", "caption": "智能识别系统" },
+            { "id": "img3", "url": "/images/trap_light_3.jpg", "caption": "数据采集终端" },
+            { "id": "img4", "url": "/images/trap_light_4.jpg", "caption": "远程监控设备" },
+            { "id": "img5", "url": "/images/trap_light_5.jpg", "caption": "环境传感器组" },
+            { "id": "img6", "url": "/images/trap_light_6.jpg", "caption": "太阳能供电系统" }
+          ]
+        },
+        "microscopeGallery": {
+          "title": "互光镜...所获数据",
+          "images": [
+            { "id": "img7", "url": "/images/crop_1.jpg", "caption": "小麦叶片样本" },
+            { "id": "img8", "url": "/images/crop_2.jpg", "caption": "玉米病虫害检测" },
+            { "id": "img9", "url": "/images/crop_3.jpg", "caption": "棉花纤维观察" },
+            { "id": "img10", "url": "/images/crop_4.jpg", "caption": "水稻纹枯病分析" },
+            { "id": "img11", "url": "/images/crop_5.jpg", "caption": "蔬菜病害诊断" },
+            { "id": "img12", "url": "/images/crop_6.jpg", "caption": "果树害虫鉴定" }
+          ]
+        }
+      }
+    },
+    
+    "pestTopic": {
+      "title": "山东省粘虫当日灯诱读虫量分布图",
+      "pestTypes": ["粮棉虫", "玉米螟", "蝗虫"],
+      "selectedPestType": "粮棉虫",
+      
+      "dataGauge": {
+        "totalValue": 9000,
+        "items": [
+          { "label": "性诱数据", "value": 3200, "percent": 30, "icon": "🦋", "color": "#10b981" },
+          { "label": "灯诱数据", "value": 1800, "percent": 20, "icon": "💡", "color": "#facc15" },
+          { "label": "人工数据", "value": 1600, "percent": 25, "icon": "👨‍🌾", "color": "#3b82f6" },
+          { "label": "监测数据", "value": 2400, "percent": 25, "icon": "📡", "color": "#8b5cf6" }
+        ]
+      },
+      
+      "historyComparison": {
+        "title": "历史对比分析",
+        "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+        "series": [
+          { "name": "2024年", "data": [450, 520, 680, 890, 1020, 950, 780, 650, 580, 490, 420, 380], "color": "#3b82f6" },
+          { "name": "2023年", "data": [380, 450, 590, 780, 920, 880, 720, 600, 540, 460, 390, 350], "color": "#f59e0b" },
+          { "name": "2022年", "data": [320, 400, 540, 720, 850, 820, 680, 570, 510, 430, 370, 330], "color": "#facc15" },
+          { "name": "历年", "data": [280, 350, 480, 650, 780, 750, 620, 520, 470, 400, 340, 300], "color": "#94a3b8" }
+        ],
+        "annotations": [
+          { "month": 5, "label": "6%↑", "type": "increase" },
+          { "month": 8, "label": "2024↓", "type": "decrease" },
+          { "month": 3, "label": "2021↑", "type": "increase" },
+          { "month": 10, "label": "2022↓", "type": "decrease" },
+          { "month": 12, "label": "历年↓", "type": "decrease" }
+        ]
+      },
+      
+      "dataTableSearch": {
+        "filters": {
+          "direction": "100公里",
+          "deviceName": "",
+          "pestType": "",
+          "hazardLevel": ""
+        },
+        "columns": ["距离(KM)", "设备名称", "虫害数量", "发生等级"],
+        "rows": [
+          { "distance": 12, "deviceName": "历下区XX村打灯", "pestCount": 7000, "level": "I级", "levelColor": "#10b981" },
+          { "distance": 12, "deviceName": "历下区YY村打灯", "pestCount": 7000, "level": "I级", "levelColor": "#10b981" },
+          { "distance": 28, "deviceName": "历下区ZZ村打灯", "pestCount": 7000, "level": "II级", "levelColor": "#facc15" },
+          { "distance": 30, "deviceName": "历下区AA村打灯", "pestCount": 7000, "level": "III级", "levelColor": "#f97316" },
+          { "distance": 12, "deviceName": "历下区BB村打灯", "pestCount": 7000, "level": "IV级", "levelColor": "#ef4444" }
+        ]
+      },
+      
+      "timelineSelector": {
+        "year": 2024,
+        "dates": ["9-5", "9-6", "9-7", "9-8", "9-9", "9-10", "9-11", "9-12", "9-13", "9-14", "9-15", "9-16", "9-17", "9-18", "9-19"],
+        "selectedDate": "9-9"
+      },
+      
+      "heatmapData": {
+        "cityHeatValues": [
+          { "city": "济南市", "lat": 36.67, "lng": 117.02, "value": 78 },
+          { "city": "青岛市", "lat": 36.07, "lng": 120.38, "value": 100 },
+          { "city": "烟台市", "lat": 37.54, "lng": 121.40, "value": 75 },
+          { "city": "潍坊市", "lat": 36.72, "lng": 119.11, "value": 100 },
+          { "city": "临沂市", "lat": 35.05, "lng": 118.35, "value": 85 },
+          { "city": "济宁市", "lat": 35.42, "lng": 116.57, "value": 68 },
+          { "city": "泰安市", "lat": 36.19, "lng": 117.12, "value": 72 },
+          { "city": "淄博市", "lat": 36.81, "lng": 118.06, "value": 65 },
+          { "city": "威海市", "lat": 37.51, "lng": 122.12, "value": 55 },
+          { "city": "德州市", "lat": 37.46, "lng": 116.31, "value": 58 },
+          { "city": "聊城市", "lat": 36.45, "lng": 115.98, "value": 62 },
+          { "city": "滨州市", "lat": 37.38, "lng": 117.97, "value": 48 },
+          { "city": "菏泽市", "lat": 35.24, "lng": 115.46, "value": 52 },
+          { "city": "枣庄市", "lat": 34.86, "lng": 117.56, "value": 45 },
+          { "city": "日照市", "lat": 35.42, "lng": 119.51, "value": 42 },
+          { "city": "东营市", "lat": 37.46, "lng": 118.49, "value": 38 }
+        ],
+        "legendRanges": [
+          { "label": "100", "color": "#ff6b35" },
+          { "label": "75", "color": "#facc15" },
+          { "label": "50", "color": "#10b981" },
+          { "label": "25", "color": "#3b82f6" },
+          { "label": "0", "color": "#64748b" }
+        ]
+      },
+      
+      "cityPopupDetail": {
+        "template": {
+          "deviceName": "设备名称",
+          "dataFrequency": "数据频次",
+          "monitorTime": "运测时间",
+          "addToCompare": "加入对比"
+        },
+        "examples": {
+          "潍坊市": {
+            "stationName": "潍坊市历下区监测站打灯",
+            "deviceName": "高线",
+            "dataFrequency": "2#365天",
+            "monitorTime": "2023/02/02",
+            "compareStatus": "选中"
+          }
+        }
+      },
+      
+      "weatherOverlayChart": {
+        "title": "气象叠加分析",
+        "subtitle": "历下区监测站气候",
+        "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+        "series": [
+          { "name": "气温", "data": [-2, 1, 8, 16, 22, 28, 31, 30, 25, 17, 8, 1], "color": "#f97316", "yAxisIndex": 0 },
+          { "name": "湿度", "data": [45, 48, 52, 58, 65, 72, 78, 80, 72, 62, 52, 46], "color": "#3b82f6", "yAxisIndex": 0 },
+          { "name": "降水", "data": [8, 12, 25, 45, 65, 120, 180, 150, 75, 35, 18, 10], "color": "#10b981", "yAxisIndex": 1 },
+          { "name": "降雨", "data": [5, 8, 18, 32, 50, 95, 145, 120, 58, 28, 14, 8], "color": "#06b6d4", "yAxisIndex": 1 }
+        ],
+        "currentValues": { "气温": 28, "湿度": 78, "降水": 180, "降雨": 145 }
+      },
+      
+      "lampSexLureCompareChart": {
+        "title": "灯诱/性诱数据对比",
+        "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+        "series": [
+          { "name": "历下区宋家埠村性诱", "data": [85, 92, 105, 118, 125, 132, 128, 115, 98, 88, 82, 78], "color": "#10b981", "yAxisIndex": 0 },
+          { "name": "历下区宋家埠村灯诱", "data": [320, 380, 480, 580, 680, 750, 720, 650, 580, 480, 380, 320], "color": "#facc15", "yAxisIndex": 1 }
+        ]
+      },
+      
+      "photoWall": {
+        "title": "频数灯片墙",
+        "showOnlyActive": false,
+        "subtitle": "历下区监测站打灯",
+        "images": [
+          { "id": "pw1", "caption": "测报灯正面视角" },
+          { "id": "pw2", "caption": "虫情识别结果" },
+          { "id": "pw3", "caption": "设备运行状态" },
+          { "id": "pw4", "caption": "环境参数监控" },
+          { "id": "pw5", "caption": "夜间工作模式" },
+          { "id": "pw6", "caption": "数据上传记录" }
+        ]
+      },
+      
+      "multiDeviceCompareModal": {
+        "title": "周边多设备对比栏",
+        "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+        "devices": [
+          { 
+            "id": "dev1", 
+            "name": "本体★-测报灯1", 
+            "location": "历下区XX村打灯",
+            "dataFrequency": "2#64天",
+            "data": [45, 58, 72, 95, 110, 125, 118, 105, 92, 78, 62, 50],
+            "color": "#f97316"
+          },
+          { 
+            "id": "dev2", 
+            "name": "测报灯2", 
+            "location": "历下区XX村性诱",
+            "dataFrequency": "2#64天",
+            "data": [38, 48, 62, 85, 98, 112, 108, 95, 82, 68, 55, 42],
+            "color": "#ef4444"
+          },
+          { 
+            "id": "dev3", 
+            "name": "性诱1", 
+            "location": "长清区SS村打灯",
+            "dataFrequency": "2#64天",
+            "data": [28, 35, 48, 65, 78, 88, 82, 72, 62, 52, 42, 32],
+            "color": "#facc15"
+          },
+          { 
+            "id": "dev4", 
+            "name": "性诱2", 
+            "location": "长清区SS村性诱",
+            "dataFrequency": "2#64天",
+            "data": [32, 42, 55, 72, 85, 95, 90, 80, 70, 58, 48, 38],
+            "color": "#06b6d4"
+          },
+          { 
+            "id": "dev5", 
+            "name": "性诱3", 
+            "location": "莱芜区SS村打灯",
+            "dataFrequency": "2#64天",
+            "data": [42, 55, 72, 95, 115, 135, 128, 115, 100, 85, 68, 52],
+            "color": "#8b5cf6"
+          }
+        ],
+        "tooltipExample": {
+          "month": "5月",
+          "values": [
+            { "device": "本体★-测报灯1", "value": 10 },
+            { "device": "测报灯2", "value": 38 },
+            { "device": "性诱1", "value": 19 },
+            { "device": "性诱2", "value": 23 },
+            { "device": "性诱3", "value": 143 }
+          ]
+        }
+      }
+    }
+  }
+}
